@@ -1,6 +1,7 @@
-.syntax--meta.syntax--arrow > .syntax--parameters .syntax--end:not(.syntax--typeparameters):after,
+.syntax--arrow > .syntax--parameter:last-child:after,
+.syntax--arrow .syntax--parameters .syntax--end:not(.syntax--typeparameters):after,
 .syntax--function:not(.entity):not(.syntax--name) + .syntax--parameters .syntax--end:after,
-.syntax--meta.syntax--var :not(.entity) + .syntax--parameters .syntax--end:not(.syntax--typeparameters):after {
+.syntax--var :not(.entity) + .syntax--parameters .syntax--end:not(.syntax--typeparameters):after {
   content: '\0020λ';
   text-shadow: 0 0 6px;
 }
