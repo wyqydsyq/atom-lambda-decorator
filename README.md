@@ -1,7 +1,7 @@
 # atom-lambda-decorator
 Decorate your lambda (anonymous) functions with the λ character.
 
-![Preview](http://i.imgur.com/tUseVXl.png)
+![Preview](http://i.imgur.com/zlHMvRW.png)
 
 ### Things that will be decorated:
  - `() => {}` - Fat-arrow functions with parentheses for arugments and curly braces for body
